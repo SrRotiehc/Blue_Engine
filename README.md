@@ -1,4 +1,7 @@
-# BlueEngine — All Functions
+# BlueEngine
+By SrRotiehc, 2026.
+
+(This is a experimental version with LOTS of resources missing)
 
 ```python
 import BlueEngine as be    # the python version of the .so must be the same as the one used, the .so also needs to be in the same folder as the project, it is recommended to not rename the .so
