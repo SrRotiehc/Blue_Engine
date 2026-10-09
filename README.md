@@ -1,4 +1,4 @@
-![BlueEngine Logo](./BlueEngineLogo.png)
+<img src="BlueEngineLogo.png" align="right" width="250" alt="BlueEngine Logo">
 # BlueEngine, a Python Engine.
 Last Version:
 V0.05 (Part: ii)
