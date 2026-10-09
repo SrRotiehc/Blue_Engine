@@ -1,5 +1,6 @@
 # BlueEngine, a Python Engine.
 By SrRotiehc, 2026.
+To instructions on how to install, please check the bottom of the readme at "compile"
 
 (This is a experimental version with LOTS of resources missing)
 
@@ -102,6 +103,7 @@ As in the camera, with values it uses them, without it returns.
 ---
 
 ## Compile
+To install and use the engine, you must compile it by hand following the tutorial bellow or simply install the .so with the corresponding version of your python and put it on the same folder of the project. For any problems trying to launch the engine, please check bellow.
 
 Dependencies (only for linux by now)
 (Debian/Ubuntu): `sudo apt install g++ libsdl2-dev libgl-dev` 
@@ -110,6 +112,7 @@ Dependencies (only for linux by now)
 (openSUSE): `zypper install gcc-c++ SDL2-devel Mesa-libGL-devel python3-devel`
 And for each Python version:
 `python3.X -m pip install pybind11 numpy pillow` (numpy and Pillow are necessary in order to run).
+You may need to create a .venv on the folder of your project with the dependencies in order to run
 
 ```bash
 bash build.sh                       # python3.11, 3.12, 3.13 e 3.14
