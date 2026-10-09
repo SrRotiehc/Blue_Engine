@@ -1,13 +1,14 @@
 # BlueEngine, a Python Engine.
 <img src="BlueEngineLogo.png" align="right" width="250" alt="BlueEngine Logo">
+
+By SrRotiehc, 2026.
+To instructions on how to install, please check the bottom of the readme at "compile".
+
 Last Version:
 V0.05 (Part: ii)
 
 Developing:
 V0.10 (Stella Octangula)
-
-By SrRotiehc, 2026.
-To instructions on how to install, please check the bottom of the readme at "compile".
 
 (This is a experimental version with LOTS of resources missing)
 
