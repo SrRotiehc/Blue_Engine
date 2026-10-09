@@ -1,7 +1,9 @@
 # BlueEngine, a Python Engine.
 Last Version:
 V0.05 (Part: ii)
-Developing: V0.10 (Stella Octangula)
+
+Developing:
+V0.10 (Stella Octangula)
 
 By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
