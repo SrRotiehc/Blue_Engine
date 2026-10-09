@@ -1,14 +1,16 @@
 # BlueEngine, a Python Engine.
-<table width="100%" border="0">
+<table align="right">
   <tr>
-    <td valign="top">
+    <td>
+      <img src="BlueEngineLogo.png" width="300" alt="BlueEngine Logo">
     </td>
-    <td width="250" valign="top" align="right">
-      <img src="BlueEngineLogo.png" width="250" alt="BlueEngine Logo">
+  </tr>
+  <tr>
+    <td align="center">
+      (Art by betrayedreaper)
     </td>
   </tr>
 </table>
-(Art by betrayedreaper)
 
 By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
