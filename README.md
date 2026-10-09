@@ -1,5 +1,8 @@
 # BlueEngine, a Python Engine.
-<img src="BlueEngineLogo.png" align="right" width="250" alt="BlueEngine Logo">
+<figure align="right" style="text-align: center; margin: 10px;">
+  <img src="BlueEngineLogo.png" width="250" alt="BlueEngine Logo">
+  <figcaption><i>(art by betrayedreaper)</i></figcaption>
+</figure>
 
 By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
