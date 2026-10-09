@@ -1,4 +1,6 @@
 # BlueEngine, a Python Engine.
+Version 0.05 (aka Part: ii)
+
 By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
 
