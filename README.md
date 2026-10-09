@@ -2,7 +2,7 @@
 <table align="right">
   <tr>
     <td>
-      <img src="BlueEngineLogo.png" width="300" alt="BlueEngine Logo">
+      <img src="BlueEngineLogo.png" width="200" alt="BlueEngine Logo">
     </td>
   </tr>
   <tr>
@@ -11,6 +11,7 @@
     </td>
   </tr>
 </table>
+<br>
 
 By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
