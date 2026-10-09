@@ -1,5 +1,5 @@
 # BlueEngine, a Python Engine.
-Least Version:
+Last Version:
 V0.05 (Part: ii)
 
 By SrRotiehc, 2026.
