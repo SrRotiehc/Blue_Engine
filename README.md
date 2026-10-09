@@ -1,5 +1,5 @@
-<img src="BlueEngineLogo.png" align="right" width="250" alt="BlueEngine Logo">
 # BlueEngine, a Python Engine.
+<img src="BlueEngineLogo.png" align="right" width="250" alt="BlueEngine Logo">
 Last Version:
 V0.05 (Part: ii)
 
