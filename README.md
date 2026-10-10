@@ -12,6 +12,7 @@
   </tr>
 </table>
 <br>
+
 By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
 
