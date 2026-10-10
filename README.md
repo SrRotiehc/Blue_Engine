@@ -123,7 +123,7 @@ As in the camera, with values it uses them, without it returns.
 ---
 
 ## Compile
-To install and use the engine, you must compile it by hand following the tutorial bellow or simply install the .so with the corresponding version of your python and put it on the same folder of the project. For any problems trying to launch the engine, please check bellow.
+To install and use the engine, you must compile it by hand following the tutorial bellow or simply download the .so with the corresponding version of your python and put it on the same folder of the project. For any problems trying to launch the engine, please check bellow.
 
 Dependencies (only for linux by now)
 (Debian/Ubuntu): `sudo apt install g++ libsdl2-dev libgl-dev` 
