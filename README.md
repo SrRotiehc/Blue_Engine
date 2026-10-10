@@ -1,4 +1,4 @@
-# BlueEngine, a Python Engine.
+# BlueEngine, a simple 3D Python Engine.
 <table align="right">
   <tr>
     <td>
