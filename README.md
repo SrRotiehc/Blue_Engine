@@ -17,10 +17,10 @@ By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile".
 
 Last Version:
-V0.05 (Part: ii)
+V0.10 (Stella Octangula)
 
 Developing:
-V0.10 (Stella Octangula)
+V0.15 (Erl King)
 
 (This is a experimental version with LOTS of resources missing)
 
