@@ -14,9 +14,9 @@
 <br>
 
 By SrRotiehc, 2026.
-To instructions on how to install, please check the bottom of the readme at "compile", also have in mind that all the functions and instructions on this readme will always correspond to the last version.
+To instructions on how to install, please check the bottom of the readme at "compile", also have in mind that all the functions and instructions on this readme will always correspond to the latest version.
 
-Last Version:
+Latest Version:
 V0.10 (Stella Octangula)
 
 Developing:
