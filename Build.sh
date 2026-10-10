@@ -9,7 +9,7 @@ SDL_LIBS="${SDL_LIBS-$(pkg-config --libs sdl2 2>/dev/null || sdl2-config --libs 
 GL_LIBS="${GL_LIBS--lGL}"
 
 if [ ! -f BlueEngine.cpp ] || [ ! -f main.py ]; then
-    echo "Erro: BlueEngine.cpp and main.py need to be on the same folder as build.sh" >&2
+    echo "Error: BlueEngine.cpp and main.py need to be on the same folder as build.sh" >&2
     exit 1
 fi
 
@@ -21,7 +21,7 @@ for PY in "${PYTHONS[@]}"; do
         echo "[ignoring] $PY not found"; fail=$((fail+1)); continue
     fi
     if ! INCLUDES="$("$PY" -m pybind11 --includes 2>/dev/null)"; then
-        echo "[pulando] $PY sem pybind11 (rode: $PY -m pip install pybind11)"; fail=$((fail+1)); continue
+        echo "[ignoring] $PY pybind11 not found (run: $PY -m pip install pybind11)"; fail=$((fail+1)); continue
     fi
     SUFFIX="$("$PY" -c 'import sysconfig; print(sysconfig.get_config_var("EXT_SUFFIX"))')"
     OUT="BlueEngine$SUFFIX"
