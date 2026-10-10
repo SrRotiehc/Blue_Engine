@@ -39,6 +39,9 @@ import BlueEngine as be    # the python version of the .so must be the same as t
 | `windowTitle(title)` | Changes the window title. |
 | `pollEvents()` `*` | Read the events frame by frame. To use it just call it once per frame in the main loop, at the start of it. |
 | `deltaTime()` → `float` `*` | Seconds before the last two `pollEvents()` (limited to 0.1s). |
+| `setFPS(fps=None)` | Limits the frame rate: a number = limit in frames per second, `0` = no limit, no value = the default (vsync, the monitor refresh rate). With a number or `0` the vsync is turned off. It can be called before or after `start()`. Text or `True`/`False` → `TypeError`, a negative number, `nan` or `inf` → `ValueError`. |
+| `gpuName()` → `str` | Name of the GPU that OpenGL is really using, for example `"NVIDIA GeForce RTX 3060/PCIe/SSE2"`. Something like `llvmpipe` means that the CPU is drawing instead of a graphics card. It needs `start()` first (`RuntimeError`). |
+| `setGPU(index=None)` `*` | Lists the GPUs of the computer and chooses the one that the engine uses: `setGPU()` uses the system default, `setGPU(n)` uses the GPU number `n`. It always returns the list of GPUs, so `print(setGPU())` shows them numbered, with the default and the chosen one marked. It must be called **before** `start()` (after it, only the listing works and a number gives `RuntimeError`). A number that is not a GPU → `ValueError`, not an integer (or `True`/`False`) → `TypeError`. Linux only for now (the GPUs are read from `/sys/bus/pci`; if none is found the list is empty and the system default is used). |
 
 ## Inputs
 
@@ -49,6 +52,9 @@ Keyboard input names are the same as the SDL: `"w"`, `"space"`, `"escape"`, `"le
 | `keyDown(key)` → `bool` `*` | `True` While it is being hold. |
 | `keyPressed(key)` → `bool` `*` | `True` Only in the frame that it was pressed (ignores auto-repeat). |
 | `mousePos()` → `(dx, dy)` `*` | How much the mouse has moved (There isn't a function for checking the mouse position in the screen for now). |
+| `mousePosXY()` → `(x, y)` `*` | Position of the mouse in the window, in pixels (`(0, 0)` is the top-left corner). |
+| `mouseBTDown(button)` → `bool` `*` | `True` While a mouse button is being held. Button: `"left"`, `"middle"`, `"right"`, `"x1"`, `"x2"` (not case sensitive) or a number from 1 to 5 (1 = left, 2 = middle, 3 = right, 4 and 5 = side buttons). Unknown name or number out of range → `ValueError`, other types (including `True`/`False`) → `TypeError`. |
+| `mouseBTPressed(button)` → `bool` `*` | `True` Only in the frame that the button was pressed. Same buttons as `mouseBTDown`. |
 | `setMouseCap(on)` | `True` Hides the mouse and starts checking only it movement. |
 | `mouseCap()` → `bool` | Returns if the mouse is being captured. |
 
@@ -118,7 +124,7 @@ As in the camera, with values it uses them, without it returns.
 
 ## Direct Functions (not recommended to use)
 
-`_start`, `_quit`, `_pollRaw`, `_keyHeld`, `_scancode`, `_ticks` — pure SDL layers that `main.py` uses to build the functions above.
+`_start`, `_quit`, `_pollRaw`, `_keyHeld`, `_scancode`, `_mouseHeld`, `_mousePosXY`, `_ticks` — pure SDL layers that `main.py` uses to build the functions above.
 
 ---
 
