@@ -55,7 +55,7 @@ Keyboard input names are the same as the SDL: `"w"`, `"space"`, `"escape"`, `"le
 | `mousePosXY()` → `(x, y)` `*` | Position of the mouse in the window, in pixels (`(0, 0)` is the top-left corner). |
 | `mouseBTDown(button)` → `bool` `*` | `True` While a mouse button is being held. Button: `"left"`, `"middle"`, `"right"`, `"x1"`, `"x2"` (not case sensitive) or a number from 1 to 5 (1 = left, 2 = middle, 3 = right, 4 and 5 = side buttons). Unknown name or number out of range → `ValueError`, other types (including `True`/`False`) → `TypeError`. |
 | `mouseBTPressed(button)` → `bool` `*` | `True` Only in the frame that the button was pressed. Same buttons as `mouseBTDown`. |
-| `setMouseCap(on)` | `True` Hides the mouse and starts checking only it movement. |
+| `setMouseCap(True)` | `True` Hides the mouse and starts checking only it movement. |
 | `mouseCap()` → `bool` | Returns if the mouse is being captured. |
 
 ## Draw/Render
