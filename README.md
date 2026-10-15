@@ -17,10 +17,10 @@ By SrRotiehc, 2026.
 To instructions on how to install, please check the bottom of the readme at "compile", also have in mind that all the functions and instructions on this readme will always correspond to the latest version.
 
 Latest Version:
-V0.10 (Stella Octangula)
+V0.15 (Erl King)
 
 Developing:
-V0.15 (Erl King)
+V0.20 (宇宙ステーションのレベル7)
 
 (This is a experimental version with LOTS of resources missing)
 
